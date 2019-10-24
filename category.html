@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--  Meta  -->
+	<meta charset="UTF-8" />
+	<title>Smarty Pants Quiz!</title>
+	<!--  Styles  -->
+	<link rel="stylesheet" href="styles/style.css">
+	<!-- Scripts -->
+	<script src="scripts/category.js">
+	</script>
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Gruppo&display=swap" rel="stylesheet">
+</head>
+
+<body onload="getName()">
+	<div class="divCentered">
+		<h1 id="welcomeText" class="titleBig"> </h1>
+		<h2 class="titleMedium"> Elige una categoria </h2>
+	</div>
+	<div>
+		<div class="divTwoElementsCenter">
+			<div class="halfWidthCenter">
+				<img class="sizeImg" onclick="setCategory(1)" src="images/cine.png" alt="Cine"/>
+        </div>
+        <div class="halfWidthCenter">
+          <img class="sizeImg" onclick="setCategory(2)" src="images/comida.jpg" alt="Cine"/>
+        </div>
+      </div>
+
+      <div class="divTwoElementsCenter" >
+        <div class="halfWidthCenter">
+          <h3 class="titleSmall">Cine</h3>
+        </div>
+        <div class="halfWidthCenter">
+          <h3 class="titleSmall">Comida</h3>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

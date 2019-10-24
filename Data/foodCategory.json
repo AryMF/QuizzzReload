@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "question": "¿Que tipo de carne lleva tradicionalmente la birria?",
+      "answers": [
+        "Res",
+        "Pollo",
+        "Chivo",
+        "Ternera"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "¿De donde son originarias las Tlayudas?",
+      "answers": [
+        "CDMX",
+        "Yucatán",
+        "Jalisco",
+        "Oaxaca"
+      ],
+      "correct": 4
+    },
+    {
+      "question": "¿Que es el huitlacoche?",
+      "answers": [
+        "Leguminosa",
+        "Fruta",
+        "Hongo",
+        "Vegetal"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "¿En que mes es tradicional el pan de muerto?",
+      "answers": [
+        "Noviembre",
+        "Enero",
+        "Diciembre",
+        "Julio"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "¿Que es la 'Nogada'?",
+      "answers": [
+        "Salsa",
+        "Crema",
+        "Aderezo",
+        "Sopa"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "¿Cuantos tipos de panes mexicanos existen?",
+      "answers": [
+        "110",
+        "50",
+        "5",
+        "1000"
+      ],
+      "correct": 4
+    }
+  ]
+}

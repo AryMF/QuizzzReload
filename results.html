@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<!--  Meta  -->
+	<meta charset="UTF-8" />
+	<title>Smarty Pants Quiz!</title>
+	<!--  Styles  -->
+	<link rel="stylesheet" href="styles/style.css">
+	<!-- Scripts -->
+	<script src="scripts/results.js">
+
+	</script>
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Gruppo&display=swap" rel="stylesheet">
+</head>
+
+<body onload="printingResults()">
+	<div class="flexConteiner">
+		<div class="divCentered">
+			<h3 class="titleMedium">Estos son tus resultados</h3>
+		</div>
+
+		<div class="divTwoElementsCenter">
+      <div class="halfWidthCenter">
+        <h3 class="titleSmall">Acertaste</h3>
+        <h1 id="result" class="titleBig">X de X</h1>
+        <h3 id="textResult" class="titleSmall">Blablabla</h3>
+      </div>
+
+      <div class="halfWidthCenter">
+        <img id="animation" class="sizeGif" alt="Dance"/>
+      </div>
+    </div>
+
+    <div class="divRight">
+        <button id="bBack" class="bGeneral" onclick="sendBack()">Volver</button>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+
+.divCentered{
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  width: 80%;
+}
+
+.divTwoElementsCenter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  
+  
+  width: 80%;
+}
+
+.halfWidthCenter{
+  width: 49.8%;
+  text-align: center;
+
+}
+
+.alignRight {
+  width: 49.8%;
+  text-align: right;
+
+}
+
+.alignLeft {
+  width: 49.8%;
+  text-align: left;
+
+}
+
+.divRight{
+  margin: auto;
+  text-align: right;
+  background-color: white;
+  width: 80%;
+
+}
+
+#textBox {
+  width: 600px;
+  height: 30px;
+  font-family: 'Gruppo', cursive;
+  font-size: 22px;
+  color: black;
+}
+
+.bGeneral {
+  height: 30px;
+  margin-top: 15px;
+  font-family: 'Gruppo', cursive;
+  font-size: 25px;
+}
+
+.bAnswer{
+  height: 4em;
+  width: 10em;
+  border-radius: 12px;
+  font-family: 'Gruppo', cursive;
+  font-size: 25px;
+  background-color: #0BACAC; /* Azul*/
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.titleSmall{
+  font-family: 'Gruppo', cursive;
+  font-size: 24px;
+  color: black;
+}
+
+.titleMedium{
+  font-family: 'Gruppo', cursive;
+  font-size: 46px;
+  color: DodgerBlue;
+}
+
+.titleBig{
+  font-family: 'Gruppo', cursive;
+  font-size: 72px;
+  text-align: center;
+  color: DodgerBlue;
+}
+
+.footer{
+  font-family: 'Gruppo', cursive;
+  font-size: 24px;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  background: DodgerBlue;
+}
+
+.sizeImg{
+  max-width: 250px;
+  height: auto;
+}
+
+.sizeGif{
+  max-width: 300px;
+  height: auto;
+  padding: 30px;
+}
+
+/*border: .5px solid #4CAF50;
+
+body {
+  background-color: #eb0de0;
+}*/

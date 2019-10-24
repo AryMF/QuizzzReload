@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<!--  Meta  -->
+	<meta charset="UTF-8" />
+	<title>Smarty Pants Quiz!</title>
+	<!--  Styles  -->
+	<link rel="stylesheet" href="styles/style.css">
+	<!-- Scripts -->
+	<script src="scripts/questions.js"> </script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Gruppo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Turret+Road&display=swap" rel="stylesheet">
+</head>
+
+<body onload="getReady()">
+
+	<div class="divTwoElementsCenter">
+		<div class="alignLeft">
+			<h3 id="questionNum" class="titleSmall"> de 3</h3>
+		</div>
+		<div class="alignRight">
+			<h3 id="showTimer" class="titleSmall">Tiempo restante:  segundos.
+		</div>
+	</div>
+	</div>
+
+	<div class="divCentered">
+		<h1 id="question" class="titleMedium">Pregunta </h1>
+	</div>
+
+	<div class="divTwoElementsCenter">
+		<div class="halfWidthCenter">
+			<button id="bOption1" class="bAnswer" onclick="setScore(1)">Opcion 1</button>
+      </div>
+      <div class="halfWidthCenter">
+        <button id="bOption2" class="bAnswer" onclick="setScore(2)">Opcion 2</button>
+      </div>
+    </div>
+
+    <div class="divTwoElementsCenter" >
+      <div class="halfWidthCenter">
+        <button id="bOption3" class="bAnswer" onclick="setScore(3)">Opcion 3</button>
+      </div>
+      <div class="halfWidthCenter">
+        <button id="bOption4" class="bAnswer" onclick="setScore(4)">Opcion 4</button>
+      </div>
+    </div>
+
+    <div class="divTwoElementsCenter">
+      <div class="alignLeft">
+        <button id="bAnswer" class="bGeneral" onclick="showAnswer()">Ver respuesta correcta</button>
+      </div>
+      <div class="alignRight">
+        <button id="bNext" class="bGeneral" onclick="goToResults()">Continuar</button>
+      </div>
+    </div>
+
+    <div class="divCentered">
+      <h2 id="answer" class="footer"> Estoy aqui</h2>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "question": "En Harry Potter, ¿cómo se denomina el hechizo asesino?",
+      "answers": [
+        "Lumos",
+        "Accio",
+        "Cruciatus",
+        "Avada Kedavra"
+      ],
+      "correct": 4
+    },
+    {
+      "question": "¿Cual era el nombre de la pequeña protagonista en El Laberinto del Fauno?",
+      "answers": [
+        "Ofelia",
+        "Wendy",
+        "Hermione",
+        "Amelia"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "¿De qué año es la primera entrega de Matrix?",
+      "answers": [
+        "2000",
+        "2001",
+        "1999",
+        "1998"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "¿Como se llama el actor, compañero de John Travolta en Pulp Fiction?",
+      "answers": [
+        "Denzel Washington",
+        "Samuel L. Jackson",
+        "Martin Lawrence",
+        "Wesley Snipes"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "¿Cómo se llama la primera película del Señor de los Anillos?",
+      "answers": [
+        "Las dos torres",
+        "El retorno del Rey",
+        "La comunidad del anillo",
+        "Un viaje inesperado"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "¿A qué especie pertenece el Maestro Yoda?",
+      "answers": [
+        "Desconocida",
+        "Gungan",
+        "Ewok",
+        "Wookiee"
+      ],
+      "correct": 1
+    }
+  ]
+}
